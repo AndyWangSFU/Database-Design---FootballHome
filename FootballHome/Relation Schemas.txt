@@ -1,0 +1,16 @@
+FootballTeam(TeamName, Country, City, Founded)
+HeadCoach(Name, DateOfBirth, CoachingYears, Gender)
+Award(TeamName, Competitions, Titles)
+Matches(GameDate, HomeTeam, AwayTeam, Location)
+Referees(Name, DateofBirth, Gender, Country)
+TeamPlayers(Name, DateOfBirth, Gender, Height, Position, Nationality)
+BelongTo(PlayerName, TeamName)
+Plays(TeamName, GameDate)
+Manage(headCoachName, TeamName)
+Preside(GameDate, RefereeName)
+RetiredPlayers(Name, RetiredDate)
+
+
+
+
+
